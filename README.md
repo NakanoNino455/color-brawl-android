@@ -12,8 +12,15 @@ any anchor is missing or ambiguous, and can verify or revert itself.
 
 ## Install
 
-Grab `release/Color-Brawl.apk` and install it on any Android 7.0+ (API 24) device. It is a release
-build signed with the project key, and it runs fully offline.
+**[Download Color-Brawl.apk](https://github.com/NakanoNino455/color-brawl-android/releases/latest/download/Color-Brawl.apk)**
+(16.2 MB) &mdash; also available on the [releases page](https://github.com/NakanoNino455/color-brawl-android/releases).
+
+Installs on any Android 7.0+ (API 24) device. It is a release build signed with the project key,
+and it runs fully offline. A copy is committed at `release/Color-Brawl.apk` as well.
+
+```
+SHA-256  1bb3f6848f529e45a282c3ad6b8bd9e37e16f4af19787a0d179e6ad0799c827d
+```
 
 ## Original source
 
