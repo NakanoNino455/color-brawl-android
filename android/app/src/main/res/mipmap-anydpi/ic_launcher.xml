@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Pre-API-26 fallback launcher icon. Adaptive icons only exist from API 26, so this
+     self-contained vector (background + squid) covers API 24-25 at every density.
+     `anydpi` means one file serves all screen densities. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:centerX="54"
+                android:centerY="50"
+                android:gradientRadius="72"
+                android:startColor="#FF1B2244"
+                android:endColor="#FF0A0D1C" />
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#FFFF8A14"
+        android:pathData="M54,24 C64.5,24 70.5,32.5 70.5,43.5 C70.5,49.5 69.5,53 71,57.5 C72.5,62 77.5,63.5 77.5,69.5 C77.5,74 74.5,77 70.5,77 C65.5,77 63,72 59,72 C56,72 55.5,83 54,83 C52.5,83 52,72 49,72 C45,72 42.5,77 37.5,77 C33.5,77 30.5,74 30.5,69.5 C30.5,63.5 35.5,62 37,57.5 C38.5,53 37.5,49.5 37.5,43.5 C37.5,32.5 43.5,24 54,24 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M47,41 m-4.6,0 a4.6,4.6 0 1,0 9.2,0 a4.6,4.6 0 1,0 -9.2,0 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M61,41 m-4.6,0 a4.6,4.6 0 1,0 9.2,0 a4.6,4.6 0 1,0 -9.2,0 Z" />
+</vector>

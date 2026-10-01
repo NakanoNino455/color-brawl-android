@@ -1,0 +1,24 @@
+[versions]
+# Aligned with the toolchain verified on this machine. AGP 9.x provides its own Kotlin
+# support, so no standalone org.jetbrains.kotlin.android plugin is applied — doing so
+# fails with "Cannot add extension with name 'kotlin'".
+agp = "9.4.1"
+coreKtx = "1.13.1"
+appcompat = "1.7.0"
+webkit = "1.12.1"
+activity = "1.9.3"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+androidx-webkit = { group = "androidx.webkit", name = "webkit", version.ref = "webkit" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }

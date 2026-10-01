@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Pre-API-26 round fallback. See ic_launcher.xml. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path android:pathData="M54,0 A54,54 0 1,1 53.99,0 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:centerX="54"
+                android:centerY="50"
+                android:gradientRadius="72"
+                android:startColor="#FF1B2244"
+                android:endColor="#FF0A0D1C" />
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#FFFF8A14"
+        android:pathData="M54,26 C64,26 69.5,34 69.5,44.5 C69.5,50 68.5,53.5 70,57.5 C71.5,62 76,63.5 76,69 C76,73 73.5,76 69.5,76 C65,76 62.5,71 59,71 C56.5,71 55.5,81 54,81 C52.5,81 51.5,71 49,71 C45.5,71 43,76 38.5,76 C34.5,76 32,73 32,69 C32,63.5 36.5,62 38,57.5 C39.5,53.5 38.5,50 38.5,44.5 C38.5,34 44,26 54,26 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M47.5,42.5 m-4.3,0 a4.3,4.3 0 1,0 8.6,0 a4.3,4.3 0 1,0 -8.6,0 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M60.5,42.5 m-4.3,0 a4.3,4.3 0 1,0 8.6,0 a4.3,4.3 0 1,0 -8.6,0 Z" />
+</vector>
